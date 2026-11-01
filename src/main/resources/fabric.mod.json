@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "martial_arts",
+  "version": "${version}",
+  "name": "Martial Arts",
+  "description": "Hand-to-hand combat built for combos: punches and kicks that chain, cancel, launch and juggle.",
+  "authors": ["radhepa"],
+  "contact": {"sources": "https://github.com/radhepa/martial-arts"},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.martialarts.MartialArts"],
+    "client": ["dev.martialarts.client.MartialArtsClient"]
+  },
+  "mixins": [{"config": "martial_arts.client.mixins.json", "environment": "client"}],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

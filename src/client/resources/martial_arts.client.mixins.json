@@ -1,0 +1,1 @@
+{"required":true,"package":"dev.martialarts.mixin.client","compatibilityLevel":"JAVA_25","client":["HumanoidModelMixin","LivingEntityRendererMixin"],"injectors":{"defaultRequire":1}}
